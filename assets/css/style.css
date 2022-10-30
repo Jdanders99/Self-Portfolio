@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --main: #08080e;
+    --secondary: red;
+    --text-white: white;
+}
+
+.banner {
+    background-image: url("../images/banner.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 80px;
+    color: var(--text-white);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+header {
+    background-color: var(--main);
+    color: var(--text-white);
+}
+
+header h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+    text-align: right;
+}
+
+img {
+    position: absolute;
+    height: 100px;
+    padding: 10px;
+}
