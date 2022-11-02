@@ -104,6 +104,10 @@ span {
     justify-content: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .flex-box {
     border: 3px solid var(--main);
     display: flex;
@@ -113,6 +117,8 @@ span {
     margin: 20px;
     text-decoration: none;
     justify-content: flex-start;
+    min-height: 50px;
+    color: gray;
 }
 
 .flex-box:first-child {
@@ -129,7 +135,7 @@ address > a:hover {
 }
 
 .horiseon {
-    background-image:
+    background-image: url(../images/horiseon.png);
 }
 
 .placeholder {
