@@ -142,5 +142,32 @@ address > a:hover {
     background-image: url(https://via.placeholder.com/768x100.png/000000/FFFFFF/?text=Coming+Soon);
 }
 
+@media screen and (max-width: 980px) {
+    .section p {
+        flex-basis: 75%
+    }
+    
+    .section {
+        flex-direction: column;
+    }
+    .section h2 {
+        border-right: none;
+        border-bottom: 3px solid var(--secondary);
+    }
+
+    .horiseon {
+        background-image: url(../images/horiseon2.png);
+    }
+
+    .placeholder {
+        background-image: url(https://via.placeholder.com/620x100.png/000000/FFFFFF/?text=Coming+Soon);
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .placeholder {
+        background-image: url(https://via.placeholder.com/500x100.png/000000/FFFFFF/?text=Coming+Soon);
+    }
+}
 
 
