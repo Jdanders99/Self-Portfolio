@@ -137,6 +137,9 @@ address > a:hover {
 .horiseon {
     background-image: url(../images/horiseon.png);
 }
+.pokedexmini {
+    background-image: url(../images/pokedexmini.png);
+}
 
 .placeholder {
     background-image: url(https://via.placeholder.com/768x100.png/000000/FFFFFF/?text=Coming+Soon);
