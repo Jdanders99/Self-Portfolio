@@ -145,6 +145,10 @@ address > a:hover {
     background-image: url(https://via.placeholder.com/768x100.png/000000/FFFFFF/?text=Coming+Soon);
 }
 
+.travelforum {
+    background-image: url(../images/travelforum.png);
+}
+
 @media screen and (max-width: 980px) {
     .section p {
         flex-basis: 75%
